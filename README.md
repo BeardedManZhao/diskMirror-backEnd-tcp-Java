@@ -1,6 +1,10 @@
+![logo](https://github.com/user-attachments/assets/0b05e34b-96e3-44ec-8a69-bb9b82059a07)
+
 # diskMirror-backEnd-tcp-Java
 
-DiskMirror 的 TCP 服务器版本，TCP 协议的文件IO服务器，其具相较于[DiskMirror Http 服务器](https://github.com/BeardedManZhao/diskMirror-backEnd-spring-boot.git)而言，具有更好的性能，以及更小的内存占用。
+DiskMirror 的 TCP 服务器版本，TCP
+协议的文件IO服务器，其具相较于[DiskMirror Http 服务器](https://github.com/BeardedManZhao/diskMirror-backEnd-spring-boot.git)
+而言，具有更好的性能，以及更小的内存占用。
 
 ## 如何使用？
 
@@ -10,7 +14,8 @@ diskMirror 的 TCP 服务器版本是一个单独的 Java 程序，依赖等信�
 
 #### 启动脚本或按顺序输入命令
 
-您只需要将这里的脚本的下载链接更换为 [项目存储库](https://github.com/BeardedManZhao/diskMirror-backEnd-tcp-Java/releases)中 您期望的版本，然后直接在一个空目录运行即可！
+您只需要将这里的脚本的下载链接更换为 [项目存储库](https://github.com/BeardedManZhao/diskMirror-backEnd-tcp-Java/releases)
+中 您期望的版本，然后直接在一个空目录运行即可！
 
 ```
 wget <这里就是您的 URL>
@@ -27,7 +32,8 @@ source /etc/profile
 
 #### 下载 jar 包
 
-首先我们前往[项目存储库](https://github.com/BeardedManZhao/diskMirror-backEnd-tcp-Java/releases)中下载您需要的对应的版本，然后将其放到一个单独的目录中。
+首先我们前往[项目存储库](https://github.com/BeardedManZhao/diskMirror-backEnd-tcp-Java/releases)
+中下载您需要的对应的版本，然后将其放到一个单独的目录中。
 
 #### 启动项目
 
@@ -58,7 +64,8 @@ export DiskMirror_CONF=/opt/app/diskMirror-Tcp-Java/config/config.json
 
 ##### 创建配置文件存储目录
 
-我们设置的 DiskMirror_CONF 对应的路径是 `/opt/app/diskMirror-Tcp-Java/config/config.json` 其所在的目录就是 `/opt/app/diskMirror-Tcp-Java/config/` 我们在这里只需要创建 `/opt/app/diskMirror-Tcp-Java/config` 即可。
+我们设置的 DiskMirror_CONF 对应的路径是 `/opt/app/diskMirror-Tcp-Java/config/config.json`
+其所在的目录就是 `/opt/app/diskMirror-Tcp-Java/config/` 我们在这里只需要创建 `/opt/app/diskMirror-Tcp-Java/config` 即可。
 
 ```
 mkdir /opt/app/diskMirror-Tcp-Java/config
@@ -112,7 +119,8 @@ kXXo     dXXd:    oXXb.  .KX0l   xXXb.     'KXO7       .o0XNNNXKkl'   .KXKl
 
 ##### 没有配置文件做准备的情况下启动引导
 
-如果您没有配置文件，您会遇到两种情况，下面日志展示的是第一种情况，这说明您的 [为配置文件做准备](#为配置文件做准备) 章节出现了问题！您需要按照教程操作。
+如果您没有配置文件，您会遇到两种情况，下面日志展示的是第一种情况，这说明您的 [为配置文件做准备](#为配置文件做准备)
+章节出现了问题！您需要按照教程操作。
 
 ```
 root@armbian:/opt/app/diskMirror-Tcp-Java# java -jar ./DiskMirrorTcpServer.jar 10 10001,10002
