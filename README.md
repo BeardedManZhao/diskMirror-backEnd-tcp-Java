@@ -146,3 +146,10 @@ WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impac
 [INFO][DiskMirrorBackEnd][24-11-05:08]] : threadNumber = 10
 [INFO][DiskMirrorBackEnd][24-11-05:08]] : 您设置了配置文件目录为：/opt/app/diskMirror-Tcp-Java/conf/config.json，但是您的配置文件不存在，我们为您创建了默认配置文件！
 ```
+
+## 更新记录
+
+### 2024-12-05
+
+- 使用了 `1.3.5` 版本的 diskMirror，这将更加稳定！同时有新功能！
+- 使用了 `2024.12.05` 版本的 diskMirror 后端库！解决日志冲突
